@@ -1,0 +1,108 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  background-color: #3aa6b9;
+  height: 100vh;
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.logo img {
+  width: 60px;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+  padding: 30px;
+}
+
+.sidebar a {
+  display: block;
+  padding: 5px;
+  color: #333;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background-color: #ddd;
+}
+
+.dashboard {
+  flex-basis: 80%;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.select-button {
+  background-color: #3aa6b9;
+  border: none;
+  color: black;
+  padding: 30px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+
+  transition: background-color 0.3s ease;
+}
+
+.section {
+  width: 100%;
+
+  height: 100vh;
+}
+/* *************************DASHBOARD SECTION***************************************************************** */
+
+.form-container {
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+/* Styles for form labels */
+.form-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Styles for form inputs */
+.form-container input[type="text"],
+.form-container textarea {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+/* Styles for submit button */
+.form-container input[type="submit"] {
+  background-color: #eab2a0;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Styles for submit button on hover */
+.form-container input[type="submit"]:hover {
+  background-color: #4fc0d0;
+}
